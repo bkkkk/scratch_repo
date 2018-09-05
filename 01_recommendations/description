@@ -1,0 +1,49 @@
+# Item recommendation project
+
+## Goal 
+
+The goal of this project is to build a simple product engine recommendation for consumers. 
+
+All you have as input is the customers name and a list of products to recommend based on the customer's gender.
+
+
+## Problem 1
+
+First we need to find out what the customers gender is, we do this by using the genderize API, shown here:
+
+```python
+import requests
+
+requests.get('https://api.genderize.io/?name=ana')
+```
+
+## Problem 2
+
+Create a function that given a gender, returns an appropriate product.
+
+Male products:
+
+- Condoms
+- Male-oriented scented shaving foam
+- Die Hard 4
+- Larger than average shoe
+
+Female products:
+
+- Bras
+- Flowers
+- Bridgette Jones' Diary
+- Smaller than average shoe
+
+## Problem 3
+
+You've now succeeded beyond the realms of our planet and want to recommend products to a new species of symbiotic binary humanoids called the 'florborg'.
+
+The florborg don't have genders and their name can only contain numbers.
+
+Add the following recommendation items for them: 
+
+- Oil
+- CPUs
+- Silver suits
+- Warp Cores
