@@ -1,3 +1,8 @@
+# This example is based on the code here:
+# http://blog.thedigitalcatonline.com/blog/2017/07/21/refactoring-with-test-in-python-a-practical-example/
+# Your job is to break this code apart into testable functions
+# making sure to retain correct functionality through-out
+
 import math
 import json
 
